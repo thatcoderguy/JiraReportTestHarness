@@ -1,0 +1,1609 @@
+{
+  "expand": "names,schema",
+  "startAt": 0,
+  "maxResults": 1,
+  "total": 39433,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "4522602",
+      "self": "https://jira.X.com/rest/api/2/issue/4522602",
+      "key": "WC1-88784",
+      "fields": {
+        "customfield_20431": null,
+        "customfield_18354": null,
+        "customfield_18597": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/52666",
+          "value": "Company",
+          "id": "52666",
+          "disabled": false
+        },
+        "customfield_18351": null,
+        "customfield_18352": null,
+        "resolution": null,
+        "customfield_18358": null,
+        "customfield_22849": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/57854",
+          "value": "Not known at this time",
+          "id": "57854",
+          "disabled": false
+        },
+        "customfield_22846": null,
+        "customfield_22845": null,
+        "customfield_22844": null,
+        "customfield_22843": null,
+        "customfield_22842": null,
+        "customfield_18342": null,
+        "customfield_22841": null,
+        "customfield_18100": null,
+        "customfield_18343": null,
+        "customfield_18101": null,
+        "customfield_22840": null,
+        "lastViewed": null,
+        "customfield_18344": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/47660",
+          "value": "Not Prioritized",
+          "id": "47660",
+          "disabled": false
+        },
+        "customfield_18102": null,
+        "customfield_23955": "No User",
+        "customfield_18103": null,
+        "customfield_16166": null,
+        "customfield_19430": [
+          {
+            "self": "https://jira.X.com/rest/api/2/customFieldOption/53663",
+            "value": "Yes",
+            "id": "53663",
+            "disabled": false
+          }
+        ],
+        "customfield_18108": null,
+        "customfield_16169": null,
+        "customfield_16168": null,
+        "customfield_18104": null,
+        "customfield_18105": null,
+        "customfield_18106": null,
+        "customfield_18349": null,
+        "customfield_18107": null,
+        "customfield_11943": null,
+        "aggregatetimeoriginalestimate": null,
+        "customfield_22839": null,
+        "customfield_22838": null,
+        "customfield_22837": null,
+        "issuelinks": [
+          {
+            "id": "4997256",
+            "self": "https://jira.X.com/rest/api/2/issueLink/4997256",
+            "type": {
+              "id": "10530",
+              "name": "Cloners",
+              "inward": "is cloned by",
+              "outward": "clones",
+              "self": "https://jira.X.com/rest/api/2/issueLinkType/10530"
+            },
+            "outwardIssue": {
+              "id": "4468884",
+              "key": "WC1-87538",
+              "self": "https://jira.X.com/rest/api/2/issue/4468884",
+              "fields": {
+                "summary": "[FE] Update the display of IDV result screen",
+                "status": {
+                  "self": "https://jira.X.com/rest/api/2/status/10006",
+                  "description": "Active testing",
+                  "iconUrl": "https://jira.X.com/images/icons/statuses/generic.png",
+                  "name": "QA in Progress",
+                  "id": "10006",
+                  "statusCategory": {
+                    "self": "https://jira.X.com/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "inprogress",
+                    "name": "In Progress"
+                  }
+                },
+                "priority": {
+                  "self": "https://jira.X.com/rest/api/2/priority/3",
+                  "iconUrl": "https://jira.X.com/images/icons/priorities/major.svg",
+                  "name": "Major",
+                  "id": "3"
+                },
+                "issuetype": {
+                  "self": "https://jira.X.com/rest/api/2/issuetype/23",
+                  "id": "23",
+                  "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+                  "iconUrl": "https://jira.X.com/secure/viewavatar?size=xsmall&avatarId=11205&avatarType=issuetype",
+                  "name": "Story",
+                  "subtask": false,
+                  "avatarId": 11205
+                }
+              }
+            }
+          }
+        ],
+        "customfield_22836": null,
+        "customfield_22835": null,
+        "customfield_22834": null,
+        "customfield_22833": null,
+        "customfield_22832": null,
+        "customfield_22831": null,
+        "customfield_18333": null,
+        "customfield_18572": null,
+        "customfield_16159": null,
+        "customfield_18335": null,
+        "customfield_18336": null,
+        "customfield_11940": null,
+        "customfield_18337": null,
+        "customfield_18338": null,
+        "customfield_11937": null,
+        "customfield_21731": null,
+        "customfield_23734": "0",
+        "customfield_18564": null,
+        "subtasks": [
+          {
+            "id": "4536176",
+            "key": "WC1-89269",
+            "self": "https://jira.X.com/rest/api/2/issue/4536176",
+            "fields": {
+              "summary": "DEV",
+              "status": {
+                "self": "https://jira.X.com/rest/api/2/status/6",
+                "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+                "iconUrl": "https://jira.X.com/images/icons/statuses/closed.png",
+                "name": "Closed",
+                "id": "6",
+                "statusCategory": {
+                  "self": "https://jira.X.com/rest/api/2/statuscategory/3",
+                  "id": 3,
+                  "key": "done",
+                  "colorName": "success",
+                  "name": "Done"
+                }
+              },
+              "priority": {
+                "self": "https://jira.X.com/rest/api/2/priority/6",
+                "iconUrl": "https://jira.X.com/images/icons/help_16.gif",
+                "name": "Unassigned",
+                "id": "6"
+              },
+              "issuetype": {
+                "self": "https://jira.X.com/rest/api/2/issuetype/10000",
+                "id": "10000",
+                "description": "The sub-task of the issue",
+                "iconUrl": "https://jira.X.com/secure/viewavatar?size=xsmall&avatarId=11393&avatarType=issuetype",
+                "name": "Sub-task",
+                "subtask": true,
+                "avatarId": 11393
+              }
+            }
+          },
+          {
+            "id": "4536453",
+            "key": "WC1-89274",
+            "self": "https://jira.X.com/rest/api/2/issue/4536453",
+            "fields": {
+              "summary": "Manual Testing",
+              "status": {
+                "self": "https://jira.X.com/rest/api/2/status/3",
+                "description": "",
+                "iconUrl": "https://jira.X.com/images/icons/statuses/inprogress.png",
+                "name": "In Progress",
+                "id": "3",
+                "statusCategory": {
+                  "self": "https://jira.X.com/rest/api/2/statuscategory/4",
+                  "id": 4,
+                  "key": "indeterminate",
+                  "colorName": "inprogress",
+                  "name": "In Progress"
+                }
+              },
+              "priority": {
+                "self": "https://jira.X.com/rest/api/2/priority/6",
+                "iconUrl": "https://jira.X.com/images/icons/help_16.gif",
+                "name": "Unassigned",
+                "id": "6"
+              },
+              "issuetype": {
+                "self": "https://jira.X.com/rest/api/2/issuetype/10000",
+                "id": "10000",
+                "description": "The sub-task of the issue",
+                "iconUrl": "https://jira.X.com/secure/viewavatar?size=xsmall&avatarId=11393&avatarType=issuetype",
+                "name": "Sub-task",
+                "subtask": true,
+                "avatarId": 11393
+              }
+            }
+          }
+        ],
+        "customfield_23739": null,
+        "customfield_17231": null,
+        "customfield_16142": null,
+        "customfield_17237": null,
+        "customfield_18569": null,
+        "customfield_17239": null,
+        "customfield_20637": null,
+        "customfield_24830": null,
+        "customfield_24832": null,
+        "customfield_23743": null,
+        "customfield_20632": null,
+        "customfield_18551": null,
+        "issuetype": {
+          "self": "https://jira.X.com/rest/api/2/issuetype/23",
+          "id": "23",
+          "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+          "iconUrl": "https://jira.X.com/secure/viewavatar?size=xsmall&avatarId=11205&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 11205
+        },
+        "customfield_18792": null,
+        "customfield_18559": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/48896",
+          "value": "Global",
+          "id": "48896",
+          "disabled": false
+        },
+        "customfield_18558": null,
+        "customfield_25930": null,
+        "customfield_18783": null,
+        "customfield_15032": null,
+
+        "customfield_30047": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/74577",
+          "value": "False",
+          "id": "74577",
+          "disabled": false
+        },
+        "customfield_18546": null,
+        "customfield_30049": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/74582",
+          "value": "Yes",
+          "id": "74582",
+          "disabled": false
+        },
+        "customfield_18547": null,
+        "customfield_16112": null,
+        "customfield_16111": null,
+        "customfield_18779": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/48453",
+          "value": "Not Needed",
+          "id": "48453",
+          "disabled": false
+        },
+        "customfield_16116": null,
+        "customfield_18538": null,
+        "customfield_16114": null,
+        "customfield_16113": null,
+        "customfield_18775": null,
+        "customfield_16118": null,
+        "customfield_18777": null,
+        "customfield_18520": null,
+        "customfield_17430": "Disabled.",
+
+        "customfield_18526": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/48894",
+          "value": "Yes",
+          "id": "48894",
+          "disabled": false
+        },
+        "customfield_16109": null,
+        "customfield_16107": null,
+        "customfield_18767": null,
+        "environment": null,
+        "customfield_10231": null,
+        "customfield_10232": 3.0,
+        "customfield_10233": null,
+        "customfield_10234": "9223372036854775807",
+        "customfield_10235": [
+          "com.atlassian.greenhopper.service.sprint.Sprint@39776193[id=73250,rapidViewId=19313,state=ACTIVE,name=Blaze Sprint 16 - 2023,startDate=2023-08-09T08:41:00.000Z,endDate=2023-08-23T08:41:00.000Z,completeDate=<null>,activatedDate=2023-08-09T10:51:45.388Z,sequence=73250,goal=Infrastructure setup for CM Integration and Populate the \"Data Verified\" in WC1 Screening Form,autoStartStop=false,synced=false]"
+        ],
+        "customfield_11798": null,
+        "customfield_29653": null,
+        "customfield_29656": null,
+        "customfield_29655": null,
+        "customfield_22443": null,
+        "customfield_22442": null,
+        "customfield_22441": null,
+        "customfield_12641": null,
+        "customfield_11797": [
+          "Blaze"
+        ],
+        "customfield_12635": null,
+        "customfield_11788": null,
+        "customfield_11787": null,
+        "customfield_12636": null,
+        "timeestimate": null,
+        "customfield_28333": null,
+        "customfield_28336": null,
+        "customfield_18181": null,
+        "customfield_28337": null,
+        "customfield_28334": 0.0,
+        "customfield_28335": null,
+        "customfield_28339": null,
+        "customfield_18177": null,
+        "customfield_12630": null,
+        "customfield_32830": null,
+        "customfield_11785": null,
+        "customfield_28340": null,
+        "customfield_11778": null,
+        "customfield_29674": null,
+        "customfield_28341": null,
+        "customfield_29430": null,
+        "customfield_28342": null,
+        "customfield_28347": null,
+        "customfield_18165": null,
+        "customfield_11771": null,
+        "customfield_11770": null,
+        "customfield_11530": null,
+        "customfield_11772": null,
+        "customfield_11774": null,
+        "customfield_11766": null,
+        "customfield_29681": null,
+        "customfield_28351": null,
+        "customfield_11767": "0",
+        "customfield_11769": null,
+        "customfield_18397": null,
+        "customfield_20230": null,
+        "aggregatetimespent": null,
+        "customfield_11761": null,
+        "customfield_11763": null,
+        "customfield_12602": null,
+        "customfield_11754": [
+          {
+            "self": "https://jira.X.com/rest/api/2/customFieldOption/22511",
+            "value": "NOT DEFINED",
+            "id": "22511",
+            "disabled": false
+          }
+        ],
+        "customfield_11756": null,
+        "customfield_27030": null,
+        "customfield_11759": null,
+        "customfield_27033": null,
+        "workratio": -1,
+        "customfield_18387": null,
+        "customfield_30443": null,
+        "customfield_18149": null,
+        "customfield_30444": null,
+        "customfield_11744": null,
+        "customfield_11743": null,
+
+        "customfield_11745": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/22414",
+          "value": "Not started",
+          "id": "22414",
+          "disabled": false
+        },
+        "customfield_11749": "",
+        "customfield_22632": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/57266",
+          "value": "Pending",
+          "id": "57266",
+          "disabled": false
+        },
+        "customfield_17043": [
+          "C255617(anastasiia.rudenko)",
+          "6080394(6080394)",
+          "C245647(ramiz.huseinov)"
+        ],
+        "customfield_18135": null,
+        "customfield_22630": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/57265",
+          "value": "No",
+          "id": "57265",
+          "disabled": false
+        },
+        "customfield_17047": null,
+        "customfield_18130": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/56763",
+          "value": "Not known at this time",
+          "id": "56763",
+          "disabled": false
+        },
+        "customfield_16199": null,
+        "customfield_18132": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55206",
+          "value": "Not known at this time",
+          "id": "55206",
+          "disabled": false
+        },
+        "customfield_11742": null,
+        "customfield_11741": null,
+        "customfield_11733": null,
+        "customfield_11732": null,
+        "customfield_11735": null,
+        "customfield_11734": null,
+        "customfield_11736": null,
+        "customfield_11739": null,
+        "customfield_23930": "0",
+        "customfield_20445": null,
+        "customfield_23931": "0",
+        "customfield_17030": null,
+        "customfield_20440": null,
+        "customfield_17038": null,
+        "customfield_11730": null,
+        "customfield_22857": null,
+
+        "customfield_22854": [
+          {
+            "self": "https://jira.X.com/rest/api/2/customFieldOption/57875",
+            "value": "1. Exit strategy will be put in place, but which one is not known at this time",
+            "id": "57875",
+            "disabled": false
+          }
+        ],
+        "customfield_26539": null,
+        "customfield_12130": "",
+        "customfield_15642": "N/A",
+        "customfield_15643": "N/A",
+        "customfield_15641": "N/A",
+        "customfield_15646": "N/A",
+        "customfield_15647": "N/A",
+        "customfield_15644": "N/A",
+        "customfield_15645": "N/A",
+        "customfield_18904": [
+          "test1"
+        ],
+        "customfield_26540": null,
+        "customfield_27631": null,
+        "customfield_26542": null,
+        "customfield_26541": null,
+        "customfield_26544": null,
+        "customfield_26543": null,
+        "customfield_26545": null,
+        "labels": [],
+        "customfield_26550": null,
+        "customfield_28730": null,
+        "customfield_27646": null,
+        "customfield_27645": null,
+        "customfield_27648": null,
+        "customfield_27647": null,
+        "customfield_24139": null,
+        "customfield_27649": null,
+        "customfield_23244": null,
+        "customfield_14531": null,
+        "customfield_23240": null,
+        "customfield_14532": [
+          {
+            "self": "https://jira.X.com/rest/api/2/customFieldOption/36381",
+            "value": "Unassigned",
+            "id": "36381",
+            "disabled": false
+          }
+        ],
+        "customfield_12596": null,
+        "customfield_14530": "{}",
+        "customfield_12597": null,
+        "customfield_12599": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/32773",
+          "value": "Manual",
+          "id": "32773",
+          "disabled": false
+        },
+        "customfield_24141": null,
+        "customfield_27651": null,
+        "customfield_27650": null,
+        "customfield_27652": null,
+        "customfield_27658": null,
+        "customfield_23234": null,
+        "customfield_23233": null,
+        "customfield_23232": null,
+        "customfield_23231": null,
+        "reporter": {
+          "self": "https://jira.X.com/rest/api/2/user?username=6080394",
+          "name": "6080394",
+          "key": "6080394",
+          "emailAddress": "Prayaga.Pattanayak@lseg.com",
+          "avatarUrls": {
+            "48x48": "https://jira.X.com/secure/useravatar?avatarId=10112",
+            "24x24": "https://jira.X.com/secure/useravatar?size=small&avatarId=10112",
+            "16x16": "https://jira.X.com/secure/useravatar?size=xsmall&avatarId=10112",
+            "32x32": "https://jira.X.com/secure/useravatar?size=medium&avatarId=10112"
+          },
+          "displayName": "Prayaga Pattanayak",
+          "active": true,
+          "timeZone": "Etc/UTC"
+        },
+        "customfield_12337": null,
+        "customfield_27660": null,
+        "customfield_27661": null,
+        "customfield_27666": null,
+        "customfield_27668": null,
+        "customfield_27667": null,
+        "customfield_27669": null,
+        "customfield_22132": null,
+        "customfield_14990": null,
+        "customfield_12574": null,
+        "customfield_12578": null,
+        "customfield_16932": null,
+        "customfield_16931": null,
+        "customfield_15837": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39785",
+          "value": "TBD",
+          "id": "39785",
+          "disabled": false
+        },
+        "watches": {
+          "self": "https://jira.X.com/rest/api/2/issue/WC1-88784/watchers",
+          "watchCount": 3,
+          "isWatching": false
+        },
+        "customfield_15830": null,
+        "customfield_11230": "2|i4zerd:9f",
+        "customfield_15831": null,
+        "customfield_27440": null,
+        "customfield_28531": null,
+        "customfield_27441": null,
+        "customfield_19192": "<h3><u>Cost Optimization</u></h3>",
+        "customfield_28534": null,
+        "customfield_19193": "<h3><u>Operability</u></h3>",
+        "customfield_19194": "<h3><u>Standards Adherence</u></h3>",
+        "customfield_28532": null,
+        "customfield_19195": "<h3><u>Budget Alignment</u></h3>",
+        "customfield_28533": null,
+        "customfield_27448": null,
+        "updated": "2023-08-14T08:54:11.000+0000",
+        "customfield_19190": "<h3><u>Efficiency</u></h3>",
+        "customfield_19191": "<h3><u>Reliability</u></h3>",
+        "customfield_27449": null,
+        "customfield_19189": "<h3><u>Security</u></h3>",
+        "customfield_18096": null,
+        "customfield_18097": null,
+        "customfield_18098": null,
+        "customfield_18099": null,
+        "timeoriginalestimate": null,
+        "description": "{panel:title=RATIONALE|titleBGColor=#57d9a3}\r\nUpdate the IDV results screen with updated table designs and dynamic icon.\r\n{panel}\r\n{panel:title=USER STORY|titleBGColor=#57d9a3}\r\n*As A* PO\r\n*I want to* IDV result screen to display the updated table designs\r\n*So That* the customer will have a better UX \r\n{panel}\r\n{panel:title=FEATURE TOGGLE INFORMATION|titleBGColor=#57d9a3}\r\n IDV_Check_Enabled \r\n{panel}\r\n{panel:title=ACCEPTANCE CRITERIA|titleBGColor=#57d9a3}\r\n*AC1*\r\n*Given* WC1 customer successfully perform a IDV search\r\n*When* Customer lands on the BV / IDV result screen and clicks on export button\r\n*Then* the system should download the PDF and display the user input Information labeled as \"Data verified\"  and the existing legends i.e  \"Match\", \"Partial Match\" , \"No Match\" & \"Unable to Verify\" should be part of \"Data Verified\" section.\r\n\r\n*AC1*\r\n*Given* WC1 customer successfully perform a IDV search\r\n*When* Customer lands on the BV result screen and clicks on export button\r\n*Then* the system should download the PDF and display the BDE data labeled as \"Matched Business Information\"  similar to BV result\r\n\r\nNOTE: For PDF report the table can be one below other with any button\r\n{panel}\r\n{panel:title=QUALITY|titleBGColor=#57d9a3}\r\n_{{{}\"QA team to highlight the below based on their perspectives{}}}{{{}*\"{}}}_\r\n|*Edge cases* *discussed.*|Highlight the unforseen cases.|\r\n|*Existing or new automation tests*|_Highlight whether the stories would have completely new Automation test cases to be created or amending the existing test cases would work?_|\r\n|*Performance of the feature*|how will this impact the performance?|\r\n{panel}\r\n{panel:title=SERVICES AFFECTED|titleBGColor=#57d9a3}\r\n*Service(s) to* *change:*\r\n\r\n*Service(s) to* *change:* _List down the services that would be impacted with this change. (Developer)_\r\n\r\n*Services involved in the workflow :* List the services that would have an impact in the workflow. (Quality)\r\n{panel}\r\n{panel:title=CHECK TYPES AFFECTED(Yes/No)|titleBGColor=#57d9a3}\r\n|*+CHECK TYPES+*|+*Yes/No*+|\r\n|*World-Check*| |\r\n|*Client Watch List*| |\r\n|*UBO*| |\r\n|*Vessel Check*| |\r\n|*Media Check*| |\r\n|*IDV Check*|Yes |\r\n{panel}\r\n{panel:title=RISK/ASSUMPTIONS/DEPENDENCIES/ISSUES|titleBGColor=#57d9a3}\r\n|*RISK*|_{{Highlight the risks associated with this story.{*}Do we need assistance from different teams?{*}}}_|\r\n|*ASSUMPTIONS*|_{{Highlight the assumptions associated with this story.}}_|\r\n|*DEPENDENCIES*|_{{Highlight the dependent tasks/spikes. *NFR? (accessibility, performance etc.)* **}}_ |\r\n|*ISSUES*|Highlight the existing issues with this story |\r\n{panel}\r\n{panel:title=USER STORY TECHNICAL AND SOLUTION NOTES|titleBGColor=#57d9a3}\r\nMockup:\r\n[https://www.figma.com/proto/kn9lhcwUJCshACzjcELroP/WC1---IDV?node-id=2220-6158&scaling=min-zoom&page-id=2220%3A5981&starting-point-node-id=2220%3A5983&show-proto-sidebar=1] \r\n\r\nMandatory Fields\r\n\r\nPDF attached\r\n{panel}\r\n{panel:title=OUTSTANDING QUESTIONS|titleBGColor=#57d9a3}\r\n|*Questions with PO/BA*|_Open questions to be answered with BA/PO_|\r\n|*Questions with Technical Architect*|_NA_|\r\n|*Questions to be discusses internally within the technical team.*|_NA_|\r\n|*Questions to be discusses externally with the technical team.*|NA|\r\n{panel}",
+        "customfield_12551": null,
+        "customfield_14733": null,
+        "customfield_12546": null,
+        "customfield_12548": null,
+        "customfield_29630": null,
+        "customfield_29631": null,
+        "customfield_18092": null,
+        "customfield_18093": null,
+        "customfield_18094": null,
+        "customfield_18095": null,
+        "customfield_29638": null,
+        "customfield_29639": null,
+        "customfield_18090": null,
+        "customfield_18091": null,
+        "customfield_18085": null,
+        "customfield_18086": null,
+        "customfield_18087": null,
+        "customfield_12541": null,
+        "customfield_12540": null,
+        "customfield_14964": null,
+        "customfield_13632": null,
+        "customfield_12544": null,
+        "customfield_12536": null,
+        "customfield_12535": null,
+        "customfield_12538": null,
+        "customfield_12537": null,
+        "customfield_12539": null,
+        "customfield_26130": null,
+        "customfield_18081": null,
+        "customfield_18082": null,
+        "customfield_29646": null,
+
+        "customfield_18083": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/45776",
+          "value": "Financial & Risk",
+          "id": "45776",
+          "disabled": false
+        },
+        "customfield_29644": null,
+        "customfield_29649": null,
+        "customfield_29647": null,
+        "customfield_18080": null,
+        "customfield_29648": null,
+        "customfield_25846": null,
+        "customfield_18510": null,
+        "customfield_18515": null,
+        "customfield_18518": null,
+        "fixVersions": [],
+        "customfield_18511": null,
+        "customfield_18512": null,
+        "customfield_18513": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/48647",
+          "value": "Undecided",
+          "id": "48647",
+          "disabled": false
+        },
+        "customfield_18756": null,
+        "customfield_18514": null,
+        "customfield_18508": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/47649",
+          "value": "No",
+          "id": "47649",
+          "disabled": false
+        },
+        "customfield_18509": null,
+        "customfield_25850": null,
+        "customfield_25851": null,
+        "customfield_25852": null,
+        "customfield_23435": null,
+        "customfield_25859": null,
+        "customfield_15235": null,
+        "customfield_16325": null,
+        "customfield_18505": null,
+        "customfield_16324": null,
+        "customfield_18506": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/49027",
+          "value": "Undecided",
+          "id": "49027",
+          "disabled": false
+        },
+        "customfield_18507": null,
+        "priority": {
+          "self": "https://jira.X.com/rest/api/2/priority/3",
+          "iconUrl": "https://jira.X.com/images/icons/priorities/major.svg",
+          "name": "Major",
+          "id": "3"
+        },
+        "customfield_18500": null,
+        "customfield_19831": null,
+        "customfield_18501": null,
+        "customfield_19832": null,
+        "customfield_16327": null,
+        "customfield_18502": null,
+        "customfield_24533": null,
+        "customfield_24534": null,
+        "customfield_24535": null,
+
+        "customfield_16311": "1. Refer to the Static URL rollback procedure in https://thehub.thomsonreuters.com/docs/DOC-849938.\r\n2. Refer to the DML rollback procedure in the 'DML Updates' section above.\r\n3. Restore back up of previous CMDB state.\r\n4. Deploy the Previous release set through the deploy tool.\r\nIF PRE-PROD: http://uberdeployer.int.thomsonreuters.com OR\r\nIF PROD: http://prod-uberdeployer.int.thomsonreuters.com\r\n5. Run the smoke tests for the previous version of the application. ",
+        "customfield_16317": null,
+        "customfield_16308": "N/A",
+        "customfield_18727": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/52582",
+          "value": "No",
+          "id": "52582",
+          "disabled": false
+        },
+        "customfield_16307": "# Create a backup of the current CMDB state.\r\n# Record the current tag version of the BDD smoke tests in Jenkins (for rollback)",
+        "customfield_16306": "{LIST OUT THE STEPS REQUIRED TO PERFORM THIS RELEASE - ADD TO/REMOVE FROM THE BELOW LIST AS REQUIRED. \r\nMAKE SURE TO SUBSTITUTE IN THE RELEVANT {fsp-controller.version} FOR THE CURRENT RELEASE SET}\r\n\r\n# If DDL:\r\n## Raise required DCO change tickets for schema changes,\r\n## Await confirmation that the DCO have actioned the schema changes.\r\n# If DML:\r\n## Apply the DML database updates detailed on the DML field above\r\n# If CMDB:\r\n# Apply the CMDB updates\r\n# Deploy the release set through the deploy tool\r\n## IF PRE-PROD: http://uberdeployer.int.thomsonreuters.com OR\r\n## IF PROD: http://prod-uberdeployer.int.thomsonreuters.com\r\n# Run the smoke tests during the application deployment.\r\n# To update the static URL follow the steps in this document https://thehub.thomsonreuters.com/docs/DOC-849938\r\n\r\n\r\n",
+        "customfield_16305": "Execute DDL SQL after {x.x.x} from the directory - https://github.complinet.com/grc/accelus-security/tree/accelus-security-{x.x.x}/security-service/security-service-rest/src/main/sql/released\r\n\r\nExecute DDL SQL after {x.x.x} from the directory - https://github.complinet.com/grc/fsp-casemanager/tree/casemanager-{x.x.x}/casemanager-service/casemanager-service-ui/src/main/sql/released",
+        "customfield_26730": null,
+        "customfield_26733": null,
+        "customfield_15440": null,
+        "customfield_15680": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39569",
+          "value": "Not Tested",
+          "id": "39569",
+          "disabled": false
+        },
+        "customfield_15681": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39572",
+          "value": "Not Tested",
+          "id": "39572",
+          "disabled": false
+        },
+        "customfield_15684": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39581",
+          "value": "Not Tested",
+          "id": "39581",
+          "disabled": false
+        },
+        "customfield_18710": [
+          "None"
+        ],
+        "customfield_15439": null,
+        "created": "2023-08-03T09:40:55.000+0000",
+        "customfield_15670": null,
+        "customfield_15675": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39555",
+          "value": "Not Tested",
+          "id": "39555",
+          "disabled": false
+        },
+        "customfield_15433": null,
+        "customfield_15676": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39557",
+          "value": "Not Tested",
+          "id": "39557",
+          "disabled": false
+        },
+        "customfield_15432": null,
+        "customfield_15674": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39552",
+          "value": "Not Tested",
+          "id": "39552",
+          "disabled": false
+        },
+        "customfield_15679": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39566",
+          "value": "Not Tested",
+          "id": "39566",
+          "disabled": false
+        },
+        "customfield_15677": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39560",
+          "value": "Not Tested",
+          "id": "39560",
+          "disabled": false
+        },
+        "customfield_15678": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39563",
+          "value": "Not Tested",
+          "id": "39563",
+          "disabled": false
+        },
+        "customfield_15665": null,
+        "customfield_25432": null,
+        "customfield_23037": null,
+        "customfield_23036": null,
+        "customfield_23035": null,
+        "customfield_13230": null,
+        "customfield_23033": null,
+        "customfield_23032": null,
+        "customfield_23031": null,
+        "customfield_23030": null,
+        "customfield_15655": "N/A",
+        "customfield_15649": "N/A",
+        "customfield_26532": null,
+        "customfield_26537": null,
+        "customfield_26536": null,
+        "customfield_20552": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55209",
+          "value": "Not known at this time",
+          "id": "55209",
+          "disabled": false
+        },
+        "customfield_16294": null,
+        "customfield_20553": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/56978",
+          "value": "Not known at this time",
+          "id": "56978",
+          "disabled": false
+        },
+        "customfield_18475": null,
+        "customfield_16052": null,
+        "customfield_16051": null,
+        "customfield_18471": null,
+        "customfield_16055": null,
+        "customfield_16054": null,
+        "customfield_18478": [
+          {
+            "self": "https://jira.X.com/rest/api/2/customFieldOption/48799",
+            "value": "None",
+            "id": "48799",
+            "disabled": false
+          }
+        ],
+        "customfield_32535": null,
+        "customfield_20545": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54902",
+          "value": "Awaiting GDPR Assignment",
+          "id": "54902",
+          "disabled": false
+        },
+        "customfield_20544": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54898",
+          "value": "Awaiting Classification",
+          "id": "54898",
+          "disabled": false
+        },
+        "customfield_16042": null,
+        "customfield_18463": null,
+        "customfield_21630": 0.0,
+        "customfield_18464": null,
+        "customfield_18465": null,
+        "customfield_18466": null,
+        "customfield_17135": null,
+        "customfield_18460": null,
+        "customfield_16045": "{Operational Changes or one time operational procedures.\r\n\r\nOperational changes are defined as:-\r\nNew applications\r\nMove of functionality to new modules\r\nNew queues\r\nNew endpoints\r\nNew modules or jobs including changes to CRON jobs\r\n\r\nOperational Information or documentation to be detailed:\r\nInstructions to run/call jobs/endpoints\r\nNew flows and dependancies\r\nNew End points\r\nSymptoms of failure at front end, logging information etc.\r\nMethods to recover/restart\r\nLink to updated architectural docs\r\nLink to updated operational support docs} ",
+        "customfield_17134": null,
+        "customfield_16286": null,
+        "customfield_17133": null,
+        "customfield_18461": null,
+        "customfield_17132": null,
+        "customfield_18462": null,
+        "customfield_16048": null,
+        "customfield_18467": null,
+        "customfield_18468": null,
+        "customfield_11830": null,
+        "customfield_18469": null,
+        "customfield_18228": null,
+        "customfield_10734": null,
+        "customfield_20538": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54883",
+          "value": "No",
+          "id": "54883",
+          "disabled": false
+        },
+        "customfield_20539": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54885",
+          "value": "No",
+          "id": "54885",
+          "disabled": false
+        },
+        "customfield_20537": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54881",
+          "value": "No",
+          "id": "54881",
+          "disabled": false
+        },
+        "assignee": {
+          "self": "https://jira.X.com/rest/api/2/user?username=C245647",
+          "name": "C245647",
+          "key": "ramiz.huseinov",
+          "emailAddress": "Ramiz.Huseinov@lseg.com",
+          "avatarUrls": {
+            "48x48": "https://jira.X.com/secure/useravatar?avatarId=10112",
+            "24x24": "https://jira.X.com/secure/useravatar?size=small&avatarId=10112",
+            "16x16": "https://jira.X.com/secure/useravatar?size=xsmall&avatarId=10112",
+            "32x32": "https://jira.X.com/secure/useravatar?size=medium&avatarId=10112"
+          },
+          "displayName": "Ramiz Huseinov",
+          "active": true,
+          "timeZone": "Etc/UTC"
+        },
+        "customfield_18452": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/52649",
+          "value": "Billable",
+          "id": "52649",
+          "disabled": false
+        },
+        "customfield_18453": null,
+        "customfield_16030": null,
+        "customfield_18454": 0.0,
+        "customfield_16271": null,
+        "customfield_16035": null,
+        "customfield_18451": null,
+        "customfield_16032": null,
+        "customfield_31467": null,
+        "customfield_18457": null,
+        "customfield_31466": null,
+        "customfield_18458": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/47640",
+          "value": "Normal",
+          "id": "47640",
+          "disabled": false
+        },
+        "customfield_31469": null,
+        "customfield_18459": null,
+        "customfield_31468": null,
+        "customfield_31474": null,
+        "customfield_31473": null,
+        "customfield_31476": null,
+        "customfield_31470": null,
+        "customfield_31472": null,
+        "customfield_31471": null,
+        "customfield_23851": null,
+        "customfield_19532": null,
+        "customfield_18444": null,
+        "customfield_19533": "2023-02-28",
+        "customfield_16269": "N/A",
+        "customfield_16267": "N/A",
+        "customfield_18445": null,
+        "customfield_31478": null,
+        "customfield_18446": null,
+        "customfield_31477": null,
+        "customfield_18448": null,
+        "customfield_31479": null,
+        "customfield_31481": null,
+        "customfield_31480": null,
+        "customfield_22937": null,
+        "votes": {
+          "self": "https://jira.X.com/rest/api/2/issue/WC1-88784/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "customfield_22932": null,
+        "customfield_22931": null,
+        "customfield_22930": null,
+        "customfield_23865": null,
+        "customfield_23866": null,
+        "customfield_23867": null,
+        "customfield_18433": null,
+        "customfield_18434": null,
+        "customfield_20743": null,
+        "customfield_23635": "0",
+        "customfield_18420": null,
+        "customfield_16244": null,
+        "customfield_17333": "Which Funding area is this request originating from? Please choose from the COMPONENTS below ",
+        "customfield_16241": null,
+        "customfield_18425": null,
+        "customfield_20738": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54981",
+          "value": "No",
+          "id": "54981",
+          "disabled": false
+        },
+        "customfield_20737": null,
+        "customfield_20732": null,
+        "customfield_20733": null,
+        "customfield_18652": null,
+        "customfield_18410": null,
+        "customfield_18890": 0.0,
+        "customfield_16230": null,
+        "customfield_18413": null,
+        "customfield_31034": null,
+        "customfield_31033": null,
+        "customfield_31036": null,
+        "customfield_31035": null,
+        "customfield_31032": null,
+        "customfield_31031": null,
+        "customfield_18881": "2023-08-11T14:39:21.569+0000",
+        "customfield_18882": null,
+        "customfield_18880": "1w 3d 23h 14m",
+        "customfield_18889": 0.0,
+        "customfield_18405": null,
+        "customfield_18406": null,
+        "customfield_18649": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/52680",
+          "value": "N",
+          "id": "52680",
+          "disabled": false
+        },
+        "customfield_18885": "TBC",
+        "customfield_31038": null,
+        "customfield_18886": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/48642",
+          "value": "No",
+          "id": "48642",
+          "disabled": false
+        },
+        "customfield_31037": null,
+        "duedate": null,
+        "customfield_18078": null,
+        "customfield_20156": null,
+        "customfield_18079": null,
+        "customfield_20154": null,
+        "customfield_20155": null,
+        "customfield_18074": null,
+        "customfield_18075": null,
+        "customfield_22330": null,
+        "customfield_18077": null,
+        "customfield_12532": null,
+        "customfield_12534": null,
+        "customfield_12533": null,
+        "customfield_27590": null,
+        "customfield_18070": null,
+        "customfield_18071": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55208",
+          "value": "Not known at this time",
+          "id": "55208",
+          "disabled": false
+        },
+        "customfield_18073": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/56974",
+          "value": "Not known at this time",
+          "id": "56974",
+          "disabled": false
+        },
+        "customfield_18069": null,
+        "customfield_18063": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/45359",
+          "value": "No",
+          "id": "45359",
+          "disabled": false
+        },
+        "customfield_21230": [
+          {
+            "self": "https://jira.X.com/rest/api/2/customFieldOption/56272",
+            "value": "None",
+            "id": "56272",
+            "disabled": false
+          }
+        ],
+        "customfield_18065": null,
+        "customfield_11430": null,
+        "customfield_10101": null,
+        "customfield_26030": null,
+        "customfield_26032": null,
+        "customfield_26031": null,
+        "customfield_18062": "The date the POC will start",
+        "customfield_20136": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54465",
+          "value": "G0 - Submitted",
+          "id": "54465",
+          "disabled": false
+        },
+        "customfield_20137": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/54474",
+          "value": "TECHNICAL INTEGRATION",
+          "id": "54474",
+          "disabled": false
+        },
+        "status": {
+          "self": "https://jira.X.com/rest/api/2/status/10006",
+          "description": "Active testing",
+          "iconUrl": "https://jira.X.com/images/icons/statuses/generic.png",
+          "name": "QA in Progress",
+          "id": "10006",
+          "statusCategory": {
+            "self": "https://jira.X.com/rest/api/2/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "inprogress",
+            "name": "In Progress"
+          }
+        },
+        "customfield_18058": null,
+        "customfield_22550": null,
+        "customfield_27370": null,
+        "aggregatetimeestimate": null,
+        "creator": {
+          "self": "https://jira.X.com/rest/api/2/user?username=6080394",
+          "name": "6080394",
+          "key": "6080394",
+          "emailAddress": "Prayaga.Pattanayak@lseg.com",
+          "avatarUrls": {
+            "48x48": "https://jira.X.com/secure/useravatar?avatarId=10112",
+            "24x24": "https://jira.X.com/secure/useravatar?size=small&avatarId=10112",
+            "16x16": "https://jira.X.com/secure/useravatar?size=xsmall&avatarId=10112",
+            "32x32": "https://jira.X.com/secure/useravatar?size=medium&avatarId=10112"
+          },
+          "displayName": "Prayaga Pattanayak",
+          "active": true,
+          "timeZone": "Etc/UTC"
+        },
+        "customfield_18041": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55193",
+          "value": "Not known at this time",
+          "id": "55193",
+          "disabled": false
+        },
+        "customfield_18040": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55200",
+          "value": "Not known at this time",
+          "id": "55200",
+          "disabled": false
+        },
+        "customfield_22532": null,
+        "customfield_18035": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55188",
+          "value": "Not known at this time",
+          "id": "55188",
+          "disabled": false
+        },
+        "customfield_18036": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55192",
+          "value": "Not known at this time",
+          "id": "55192",
+          "disabled": false
+        },
+        "customfield_22531": null,
+        "customfield_22530": null,
+        "timespent": null,
+        "customfield_18038": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/45290",
+          "value": "Yes",
+          "id": "45290",
+          "disabled": false
+        },
+        "customfield_18039": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55198",
+          "value": "Not known at this time",
+          "id": "55198",
+          "disabled": false
+        },
+        "customfield_10546": null,
+        "customfield_10548": null,
+        "customfield_21432": null,
+        "customfield_16088": "N/A",
+        "customfield_16087": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/40229",
+          "value": "Not Tested",
+          "id": "40229",
+          "disabled": false
+        },
+        "customfield_11630": null,
+        "customfield_30331": null,
+        "customfield_30332": null,
+        "customfield_18496": null,
+        "customfield_16075": null,
+        "customfield_18497": null,
+        "customfield_16074": null,
+        "customfield_18498": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/48437",
+          "value": "Not Checked",
+          "id": "48437",
+          "disabled": false
+        },
+        "customfield_16073": null,
+        "customfield_16072": null,
+        "customfield_18492": null,
+        "customfield_18493": null,
+        "customfield_18494": null,
+        "customfield_18010": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55187",
+          "value": "Not known at this time",
+          "id": "55187",
+          "disabled": false
+        },
+        "customfield_16077": null,
+        "customfield_18495": null,
+        "customfield_16076": null,
+        "customfield_30337": null,
+        "customfield_30338": null,
+        "customfield_18016": null,
+        "customfield_30333": null,
+        "customfield_30334": null,
+        "customfield_30335": null,
+        "customfield_30336": null,
+        "customfield_18490": null,
+        "customfield_18491": null,
+        "customfield_16071": null,
+        "customfield_16070": null,
+        "customfield_18485": null,
+        "customfield_18486": null,
+        "customfield_18002": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55186",
+          "value": "Not known at this time",
+          "id": "55186",
+          "disabled": false
+        },
+        "customfield_19334": null,
+        "customfield_18487": null,
+        "customfield_16061": null,
+        "customfield_18488": null,
+        "customfield_18481": null,
+        "customfield_18482": null,
+        "customfield_18483": null,
+        "customfield_18484": null,
+        "customfield_16069": null,
+        "customfield_18489": null,
+        "customfield_19337": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/53494",
+          "value": "No Date",
+          "id": "53494",
+          "disabled": false
+        },
+        "customfield_19338": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/53495",
+          "value": "TBD",
+          "id": "53495",
+          "disabled": false
+        },
+        "customfield_12931": null,
+        "customfield_28030": null,
+        "customfield_18480": null,
+        "customfield_16060": null,
+        "customfield_23148": null,
+        "customfield_23147": null,
+        "customfield_23146": null,
+        "customfield_23145": null,
+        "customfield_10071": null,
+        "customfield_23144": null,
+        "customfield_23143": null,
+        "customfield_23142": null,
+        "customfield_23141": null,
+        "customfield_17940": null,
+        "customfield_10076": null,
+        "customfield_16848": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42755",
+          "value": "N/A",
+          "id": "42755",
+          "disabled": false
+        },
+        "customfield_16847": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42749",
+          "value": "Not Verified",
+          "id": "42749",
+          "disabled": false
+        },
+        "customfield_29931": null,
+        "customfield_29932": null,
+        "customfield_25337": null,
+        "customfield_29933": null,
+        "customfield_23139": null,
+        "customfield_29934": null,
+        "customfield_25338": null,
+        "customfield_23136": null,
+        "customfield_23135": null,
+        "customfield_23134": null,
+        "customfield_23133": null,
+        "customfield_10061": null,
+        "customfield_16842": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42724",
+          "value": "Not Verified",
+          "id": "42724",
+          "disabled": false
+        },
+        "customfield_16841": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42719",
+          "value": "Not Verified",
+          "id": "42719",
+          "disabled": false
+        },
+        "customfield_16840": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42714",
+          "value": "Not Verified",
+          "id": "42714",
+          "disabled": false
+        },
+        "customfield_16846": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42744",
+          "value": "Not Verified",
+          "id": "42744",
+          "disabled": false
+        },
+        "customfield_16845": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42739",
+          "value": "Not Verified",
+          "id": "42739",
+          "disabled": false
+        },
+        "customfield_10069": null,
+        "customfield_16844": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42734",
+          "value": "Not Verified",
+          "id": "42734",
+          "disabled": false
+        },
+        "customfield_16843": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42729",
+          "value": "Not Verified",
+          "id": "42729",
+          "disabled": false
+        },
+        "customfield_16839": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42708",
+          "value": "Not Verified",
+          "id": "42708",
+          "disabled": false
+        },
+        "customfield_16838": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42704",
+          "value": "Not Verified",
+          "id": "42704",
+          "disabled": false
+        },
+        "customfield_25340": null,
+        "customfield_25342": null,
+        "components": [],
+        "customfield_12231": null,
+        "customfield_12233": null,
+        "customfield_12235": null,
+        "customfield_16833": null,
+        "customfield_15744": null,
+        "customfield_30930": null,
+        "customfield_15737": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39910",
+          "value": "Unassigned",
+          "id": "39910",
+          "disabled": false
+        },
+        "customfield_27530": null,
+        "customfield_27532": null,
+        "customfield_27531": null,
+        "customfield_27533": null,
+        "customfield_27536": null,
+        "customfield_27535": null,
+        "customfield_27538": null,
+        "customfield_27537": null,
+        "customfield_27539": null,
+        "customfield_28630": null,
+        "customfield_28633": null,
+        "customfield_28634": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_28631": null,
+        "customfield_28632": null,
+        "customfield_28637": null,
+        "customfield_28638": null,
+        "customfield_27549": null,
+        "customfield_28635": null,
+        "customfield_28636": null,
+        "customfield_28639": null,
+        "project": {
+          "self": "https://jira.X.com/rest/api/2/project/16103",
+          "id": "16103",
+          "key": "WC1",
+          "name": "World Check One",
+          "projectTypeKey": "software",
+          "avatarUrls": {
+            "48x48": "https://jira.X.com/secure/projectavatar?avatarId=12593",
+            "24x24": "https://jira.X.com/secure/projectavatar?size=small&avatarId=12593",
+            "16x16": "https://jira.X.com/secure/projectavatar?size=xsmall&avatarId=12593",
+            "32x32": "https://jira.X.com/secure/projectavatar?size=medium&avatarId=12593"
+          },
+          "projectCategory": {
+            "self": "https://jira.X.com/rest/api/2/projectCategory/12730",
+            "id": "12730",
+            "description": "",
+            "name": "Risk and News"
+          }
+        },
+        "customfield_15956": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39933",
+          "value": "Not Tested",
+          "id": "39933",
+          "disabled": false
+        },
+        "customfield_15957": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39936",
+          "value": "Not Tested",
+          "id": "39936",
+          "disabled": false
+        },
+        "customfield_27550": null,
+        "customfield_28640": null,
+        "customfield_29730": null,
+        "customfield_27552": null,
+        "resolutiondate": null,
+        "customfield_27551": null,
+        "customfield_27554": null,
+        "customfield_28644": null,
+        "customfield_25134": null,
+        "customfield_27553": null,
+        "customfield_28645": null,
+        "customfield_27556": null,
+        "customfield_25135": null,
+        "customfield_28642": null,
+        "customfield_29731": null,
+        "customfield_29732": null,
+        "customfield_25136": null,
+        "customfield_28643": null,
+        "customfield_27555": null,
+        "customfield_25137": null,
+        "customfield_28648": null,
+        "customfield_27558": null,
+        "customfield_27557": null,
+        "customfield_28647": null,
+        "customfield_27559": null,
+        "customfield_12440": null,
+        "customfield_15950": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39915",
+          "value": "Not Tested",
+          "id": "39915",
+          "disabled": false
+        },
+        "customfield_15951": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39918",
+          "value": "Not Tested",
+          "id": "39918",
+          "disabled": false
+        },
+        "customfield_12442": null,
+        "customfield_12444": null,
+        "customfield_15954": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39927",
+          "value": "Not Tested",
+          "id": "39927",
+          "disabled": false
+        },
+        "customfield_15955": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39930",
+          "value": "Not Tested",
+          "id": "39930",
+          "disabled": false
+        },
+        "customfield_15952": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39921",
+          "value": "Not Tested",
+          "id": "39921",
+          "disabled": false
+        },
+        "customfield_15953": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39924",
+          "value": "Not Tested",
+          "id": "39924",
+          "disabled": false
+        },
+        "customfield_12437": null,
+        "customfield_12436": null,
+        "customfield_12439": null,
+        "customfield_27561": null,
+        "customfield_27560": null,
+        "customfield_28650": null,
+        "customfield_27562": null,
+        "customfield_27565": null,
+        "customfield_27564": null,
+        "customfield_22236": null,
+        "customfield_22232": null,
+        "customfield_12430": null,
+        "customfield_15943": null,
+        "customfield_12434": null,
+        "customfield_15934": null,
+        "customfield_27332": null,
+        "customfield_15939": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/39878",
+          "value": "No",
+          "id": "39878",
+          "disabled": false
+        },
+        "customfield_27333": null,
+        "summary": "[FE] Update header IDV result screen in PDF reports",
+        "customfield_11331": null,
+        "customfield_12662": null,
+        "customfield_11333": null,
+        "customfield_11332": null,
+        "customfield_12657": null,
+        "customfield_10236": "WC1-87210",
+        "customfield_12658": null,
+        "customfield_28432": null,
+        "customfield_27343": null,
+        "customfield_27342": null,
+        "customfield_27589": null,
+        "customfield_27346": null,
+        "customfield_27588": null,
+        "customfield_18870": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/48148",
+          "value": "true",
+          "id": "48148",
+          "disabled": false
+        },
+        "customfield_18871": "TBC",
+        "customfield_18872": "TBC",
+        "customfield_18873": "TBC",
+        "customfield_18879": null,
+        "customfield_18633": null,
+        "customfield_18875": [
+          {
+            "self": "https://jira.X.com/rest/api/2/customFieldOption/48430",
+            "value": "“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",
+            "id": "48430",
+            "disabled": false
+          }
+        ],
+        "customfield_18876": null,
+        "customfield_25732": null,
+        "customfield_15350": null,
+        "customfield_18626": 0.0,
+        "customfield_17533": null,
+        "customfield_18864": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/47664",
+          "value": "Planned",
+          "id": "47664",
+          "disabled": false
+        },
+        "customfield_18618": null,
+        "versions": [],
+        "customfield_25746": null,
+        "customfield_25747": null,
+        "customfield_25748": null,
+        "customfield_25749": null,
+        "customfield_18854": null,
+        "customfield_25750": null,
+        "customfield_25751": null,
+        "customfield_25752": null,
+        "customfield_25754": null,
+        "customfield_17993": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/56975",
+          "value": "Not known at this time",
+          "id": "56975",
+          "disabled": false
+        },
+        "customfield_12062": null,
+        "customfield_12061": null,
+        "customfield_16660": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/42360",
+          "value": "TBD",
+          "id": "42360",
+          "disabled": false
+        },
+        "customfield_15334": null,
+        "customfield_12066": null,
+        "customfield_17997": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55184",
+          "value": "Not known at this time",
+          "id": "55184",
+          "disabled": false
+        },
+        "customfield_18605": null,
+        "customfield_12068": null,
+        "customfield_12067": null,
+        "customfield_15333": null,
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_17999": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/45613",
+          "value": "5",
+          "id": "45613",
+          "disabled": false
+        },
+        "customfield_18601": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/47642",
+          "value": "News",
+          "id": "47642",
+          "disabled": false
+        },
+        "customfield_12051": null,
+        "customfield_17982": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55202",
+          "value": "Not known at this time",
+          "id": "55202",
+          "disabled": false
+        },
+        "customfield_12050": null,
+        "customfield_14231": null,
+        "customfield_12055": null,
+        "customfield_17986": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55204",
+          "value": "Not known at this time",
+          "id": "55204",
+          "disabled": false
+        },
+        "customfield_16654": null,
+        "customfield_12054": null,
+        "customfield_16653": null,
+        "customfield_12057": null,
+        "customfield_17983": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55203",
+          "value": "Not known at this time",
+          "id": "55203",
+          "disabled": false
+        },
+        "customfield_12059": null,
+        "customfield_16656": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/41960",
+          "value": "Not Ready for Release",
+          "id": "41960",
+          "disabled": false
+        },
+        "customfield_25530": "0",
+        "customfield_12040": null,
+        "customfield_16640": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/45283",
+          "value": "Non-categorized",
+          "id": "45283",
+          "disabled": false
+        },
+        "customfield_13131": null,
+        "customfield_13130": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/35290",
+          "value": "Unresolved",
+          "id": "35290",
+          "disabled": false
+        },
+        "customfield_17975": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55191",
+          "value": "Not known at this time",
+          "id": "55191",
+          "disabled": false
+        },
+        "customfield_17731": null,
+        "customfield_12045": null,
+        "customfield_17972": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55205",
+          "value": "Not known at this time",
+          "id": "55205",
+          "disabled": false
+        },
+        "customfield_12048": null,
+        "customfield_16646": null,
+        "customfield_16639": null,
+        "customfield_26630": null,
+        "customfield_26631": null,
+        "customfield_10090": null,
+        "customfield_12031": null,
+        "customfield_12030": null,
+        "customfield_18812": null,
+        "customfield_12033": null,
+        "customfield_12032": null,
+        "customfield_12035": null,
+        "customfield_17961": "Use the Epic Name field above to provide the POC name",
+        "customfield_12034": null,
+        "customfield_17968": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/55201",
+          "value": "Not known at this time",
+          "id": "55201",
+          "disabled": false
+        },
+        "customfield_12037": null,
+        "customfield_12038": null,
+        "customfield_17965": {
+          "self": "https://jira.X.com/rest/api/2/customFieldOption/56973",
+          "value": "Not known at this time",
+          "id": "56973",
+          "disabled": false
+        },
+        "customfield_15538": null,
+        "customfield_18806": null,
+        "customfield_18807": null,
+        "customfield_27730": null,
+        "customfield_27732": null,
+        "customfield_27731": null,
+        "customfield_15533": null,
+        "customfield_10088": null,
+        "customfield_15537": null
+      }
+    }
+  ]
+}

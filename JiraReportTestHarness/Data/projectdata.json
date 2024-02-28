@@ -1,0 +1,44 @@
+[
+  {
+    "expand": "description,lead,url,projectKeys",
+    "self": "https://jira.X.com/rest/api/2/project/1111",
+    "id": "1111",
+    "key": "XXXXXX",
+    "name": "PROEJCT NAME",
+    "avatarUrls": {
+      "48x48": "https://jira.X.com/secure/projectavatar?avatarId=1111",
+      "24x24": "https://jira.X.com/secure/projectavatar?size=small&avatarId=1111",
+      "16x16": "https://jira.X.com/secure/projectavatar?size=xsmall&avatarId=1111",
+      "32x32": "https://jira.X.com/secure/projectavatar?size=medium&avatarId=1111"
+    },
+    "projectCategory": {
+      "self": "https://jira.X.com/rest/api/2/projectCategory/2222",
+      "id": "2222",
+      "name": "CATEGORY DESC",
+      "description": ""
+    },
+    "projectTypeKey": "software",
+    "archived": false
+  },
+  {
+    "expand": "description,lead,url,projectKeys",
+    "self": "https://jira.X.com/rest/api/2/project/12345",
+    "id": "12345",
+    "key": "XXXXXX",
+    "name": "PROEJCT NAME",
+    "avatarUrls": {
+      "48x48": "https://jira.X.com/secure/projectavatar?avatarId=12345",
+      "24x24": "https://jira.X.com/secure/projectavatar?size=small&avatarId=12345",
+      "16x16": "https://jira.X.com/secure/projectavatar?size=xsmall&avatarId=12345",
+      "32x32": "https://jira.X.com/secure/projectavatar?size=medium&avatarId=12345"
+    },
+    "projectCategory": {
+      "self": "https://jira.X.com/rest/api/2/projectCategory/333333",
+      "id": "33333",
+      "name": "CATEGORY DESC",
+      "description": "Toolchain sandbox and support projects"
+    },
+    "projectTypeKey": "software",
+    "archived": false
+  }
+]
